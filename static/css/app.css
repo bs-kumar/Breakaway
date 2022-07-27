@@ -539,7 +539,7 @@ body > svg {
 .nav-video {
   width: 600px;
   height: auto;
-  display: block;
+  display: block !important;
   object-fit: cover;
   position: absolute;
   top: 50%;
