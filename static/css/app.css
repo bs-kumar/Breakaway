@@ -55,10 +55,10 @@ mark{
   text-transform: uppercase;
   font-size: 58px;
 }
-.mask text,.mask2 text{
+.mask text,.mask2 text,#works-mask text, #contact-mask text{
   font-family:"GillSansHeavy" ;
   text-transform: uppercase;
-  font-size: 66px !important;
+  font-size: 306px !important;
 }
 .mask rect, .mask1 rect, .mask2 rect, .mask3 rect  {
   fill: white;
