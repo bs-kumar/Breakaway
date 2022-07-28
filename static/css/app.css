@@ -50,21 +50,21 @@ mark{
   left: 0; 
   height: 100%;
 }
- .mask1 text, .mask2 text {
+ .mask1 text, .mask3 text {
     font-family:"GillSansHeavy" ;
   text-transform: uppercase;
   font-size: 58px;
 }
-.mask text,.mask3 text{
+.mask text,.mask2 text{
   font-family:"GillSansHeavy" ;
   text-transform: uppercase;
-  font-size: 65px !important;
+  font-size: 66px !important;
 }
 .mask rect, .mask1 rect, .mask2 rect, .mask3 rect  {
   fill: white;
 }
 .mask circle{
-  fill: white;
+  fill: black;
 }
 .mask > circle{
   -webkit-mask: url(#mask);
@@ -976,13 +976,12 @@ html.no-touchevents .nav-video {
   background-position: center center;
   background-repeat: no-repeat;
 }
-
 .circle-2 {
   position: absolute;
   right: 30%;
   top: 100px;
-  width: 40px;
-  height: 40px;
+  width: 100px;
+  height: 100px;
   -moz-border-radius: 20px;
   -webkit-border-radius: 20px;
   border-radius: 20px;
@@ -998,8 +997,8 @@ html.no-touchevents .nav-video {
   position: absolute;
   left: 5%;
   bottom: 60px;
-  width: 40px;
-  height: 40px;
+  width: 100px;
+  height: 100px;
   -moz-border-radius: 20px;
   -webkit-border-radius: 20px;
   border-radius: 20px;
@@ -1012,13 +1011,12 @@ html.no-touchevents .nav-video {
   background-repeat: no-repeat;
   background-size: contain;
 }
-
 .circle-4 {
   position: absolute;
-  left: 5%;
-  top: 150px;
-  width: 40px;
-  height: 40px;
+  left: 4%;
+  top: 90px;
+  width: 100px;
+  height: 100px;
   -moz-border-radius: 50px;
   -webkit-border-radius: 50px;
   border-radius: 50px;
@@ -1031,7 +1029,6 @@ html.no-touchevents .nav-video {
   background-repeat: no-repeat;
   background-size: contain;
 }
-
 .triangle-1 {
   position: absolute;
   right: 25%;
