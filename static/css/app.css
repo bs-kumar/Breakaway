@@ -14,6 +14,11 @@
 12. Case study
 
 --------------*/
+@font-face {
+  font-family:"GillSansHeavy" ;
+    src: url(/fonts/gill/GillSans-UltraBold.woff);
+  src: url(/fonts/gill/GillSans-UltraBold.woff2);
+}
 * {
   box-sizing: border-box;
   padding: 0;
@@ -86,10 +91,7 @@ mark{
   -webkit-mask: url(#mask3);
   mask: url(#mask3);
 }
-@font-face {
-  font-family:"GillSansHeavy" ;
-  src: url(/fonts/gill/GillSansUltraBold.ttf);
-}
+
 /* text-masking */
 /* base */
 a {
