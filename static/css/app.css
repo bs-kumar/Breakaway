@@ -28,7 +28,55 @@ body{
   overflow-x: hidden;
 }
 mark{
-  background-color: #e7e8e965;
+  background-color: transparent;
+  color: #ffffff;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.443);
+}
+.mob-circle{
+  display: none;
+}
+.tab-circle{
+  display: none;
+}
+@media screen and (min-width: 621px) and (max-width: 1025px) {
+  .tab-circle{
+    display: block;
+  }
+  .desk-circle{
+    display: none;
+  }
+}
+@media screen and (max-width:620px) {
+  .logo-div{
+    background-color: #ffffff !important;
+  }
+  .logo img {
+    max-width: 30% !important;
+}
+.box.active .header-title p {
+  font-size: 14px !important;
+  line-height: 1.3em;
+}
+.big-text a{
+  font-size: 14px !important;
+}
+
+mark{
+  color: #000000;
+  text-shadow: none;
+}
+.circle-1,.circle-2, .circle-3, .circle-4, .circle-5, .triangle-1, .triangle-2{
+  display: none;
+}
+.full{
+  padding: 50px 10% 55px !important;
+}
+  .mob-circle{
+    display: block;
+  }
+  .desk-circle{
+    display: none;
+  }
 }
 .cirfigure {
   width: 100%;
@@ -60,10 +108,15 @@ mark{
   text-transform: uppercase;
   font-size: 58px;
 }
-.mask text,.mask2 text,#works-mask text, #contact-mask text{
+.mask text,.mask2 text,#works-mask text{
   font-family:"GillSansHeavy" ;
   text-transform: uppercase;
   font-size: 306px !important;
+}
+#contact-mask text{
+  font-family:"GillSansHeavy" ;
+  text-transform: uppercase;
+  font-size: 328px !important;
 }
 .mask rect, .mask1 rect, .mask2 rect, .mask3 rect  {
   fill: white;
@@ -288,6 +341,9 @@ hr {
   font-family: montserrat;
   font-weight: bold;
 }
+.logo img{
+  max-width: 20%;
+}
 
 /* home and nav */
 .box {
@@ -362,6 +418,7 @@ hr {
   bottom: 30%;
   font-size: 20px;
   color: #000;
+  text-shadow: 1px 1px 1px rgba(31, 31, 31, 0.317);
   text-transform: uppercase;
   font-weight: 700;
   font-family: montserrat;
@@ -371,19 +428,19 @@ hr {
 }
 
 #about .header span {
-  left: 60%;
+  left: 70%;
 }
 
 #works .header span {
-  left: 58%;
+  left: 68%;
 }
 
 #blog .header span {
-  left: 57%;
+  left: 67%;
 }
 
 #contact .header span {
-  left: 56%;
+  left: 66%;
 }
 
 .header .title span.c {
@@ -497,19 +554,19 @@ body.hover-contact svg #svg-contact polygon {
 }
 
 #about:hover .header span {
-  left: 70%;
+  left: 75%;
 }
 
 #works:hover .header span {
-  left: 68%;
+  left: 73%;
 }
 
 #blog:hover .header span {
-  left: 67%;
+  left: 72%;
 }
 
 #contact:hover .header span {
-  left: 67%;
+  left: 72%;
 }
 
 .header:hover .nav-video {
@@ -1013,16 +1070,17 @@ html.no-touchevents .nav-video {
   background-repeat: no-repeat;
   background-size: contain;
 }
-.circle-4 {
+
+.circle-5 {
   position: absolute;
-  left: 4%;
-  top: 90px;
+  left: 50%;
+  top: 46%;
   width: 100px;
   height: 100px;
   -moz-border-radius: 50px;
   -webkit-border-radius: 50px;
   border-radius: 50px;
-  opacity: 0;
+  opacity: 1;
   transform: translateY(0);
   transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
   background-color: #ffffff;
@@ -1058,11 +1116,30 @@ html.no-touchevents .nav-video {
   transform: translateY(0) rotate(-90deg);
   transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
+.circle-4 {
+  position: absolute;
+  left: 80%;
+ top: 60%;
+  width: 100px;
+  height: 100px;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
+  opacity: 0;
+  transform: translateY(0);
+  transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  background-color: #ffffff;
+  background-image: url(../../images/Honey\ Bee.gif);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
 
 .circle-1.appear,
 .circle-2.appear,
 .circle-3.appear,
 .circle-4.appear,
+.circle-5.appear,
 .triangle-1.appear,
 .triangle-2.appear {
   opacity: 1;
