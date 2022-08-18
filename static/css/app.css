@@ -14,6 +14,7 @@
 12. Case study
 
 --------------*/
+
 @font-face {
   font-family:"GillSansHeavy" ;
     src: url(/fonts/gill/GillSans-UltraBold.woff);
@@ -35,13 +36,67 @@ mark{
       0 4px 0 #00000061, 0 1px 0 #00000061, 0 2px 0 #00000061, 0 3px 0 #00000061,
       0 4px 0 #00000061, 0 1px 0 #00000061, 0 2px 3px rgba(0, 0, 0, 0.3);
 }
+/* video{
+  filter: brightness(0.5) !important;
+} */
 .mob-circle{
   display: none;
 }
 .tab-circle{
   display: none;
 }
-@media screen and (min-width: 621px) and (max-width: 1025px) {
+@media screen and (min-width:1024px) and (max-width:1203px) {
+  .tab-circle{
+    display: block;
+  }
+  .desk-circle{
+    display: none;
+  }
+}
+@media screen and (min-width: 621px) and (max-width: 1023px) {
+  .contact-details {
+    min-height: 100px !important;
+}
+.con-head{
+  padding-top: 4rem;
+}
+.blowing{
+  padding-top: 4rem !important;
+}
+.contact-details i {
+  font-size: 21px !important;}
+  .contact-details h3{
+    margin-bottom: 12px;
+  }
+  .whats{
+    margin-top: -7%;
+    width: 4%;
+  }
+
+  .logo img {
+    max-width: 30% !important;
+}
+.box.active .header-title p {
+  font-size: 14px !important;
+  line-height: 1.3em;
+}
+.big-text a{
+  font-size: 14px !important;
+}
+
+mark{
+  color: #000000;
+  text-shadow: none;
+}
+.circle-1,.circle-2, .circle-3, .circle-4, .circle-5, .triangle-1, .triangle-2{
+  display: none;
+}
+.full{
+  padding: 0px 10% 55px !important;
+}
+.press{
+  padding-top: 4rem;
+}
   .tab-circle{
     display: block;
   }
@@ -50,6 +105,18 @@ mark{
   }
 }
 @media screen and (max-width:620px) {
+  .contact-details {
+    min-height: 100px !important;
+}
+.contact-details i {
+  font-size: 21px !important;}
+  .contact-details h3{
+    margin-bottom: 12px;
+  }
+  .whats{
+    margin-top: -7%;
+    width: 8%;
+  }
   .logo-div{
     background-color: #ffffff !important;
   }
