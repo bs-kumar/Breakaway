@@ -1073,8 +1073,8 @@ html.no-touchevents .nav-video {
 
 .circle-5 {
   position: absolute;
-  left: 50%;
-  top: 46%;
+  left: 5%;
+  top: 6%;
   width: 100px;
   height: 100px;
   -moz-border-radius: 50px;
