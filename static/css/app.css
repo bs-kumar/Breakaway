@@ -16,135 +16,149 @@
 --------------*/
 
 @font-face {
-  font-family:"GillSansHeavy" ;
-    src: url(/fonts/gill/GillSans-UltraBold.woff);
+  font-family: "GillSansHeavy";
+  src: url(/fonts/gill/GillSans-UltraBold.woff);
   src: url(/fonts/gill/GillSans-UltraBold.woff2);
 }
 * {
   box-sizing: border-box;
   padding: 0;
-  margin: 0
+  margin: 0;
 }
-body{
+body {
   overflow-x: hidden;
 }
-mark{
+mark {
   background-color: transparent;
   color: #ffffff;
   /* text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.443); */
-  text-shadow: 0 1px 0 #00000061, 0 2px 0 #00000061, 0 3px 0 #00000061,
-      0 4px 0 #00000061, 0 1px 0 #00000061, 0 2px 0 #00000061, 0 3px 0 #00000061,
-      0 4px 0 #00000061, 0 1px 0 #00000061, 0 2px 3px rgba(0, 0, 0, 0.3);
+  /* text-shadow: 0 1px 0 #00000061, 0 2px 0 #00000061, 0 3px 0 #00000061,
+    0 4px 0 #00000061, 0 1px 0 #00000061, 0 2px 0 #00000061, 0 3px 0 #00000061,
+    0 4px 0 #00000061, 0 1px 0 #00000061, 0 2px 3px rgba(0, 0, 0, 0.3); */
 }
 /* video{
   filter: brightness(0.5) !important;
 } */
-.mob-circle{
+.mob-circle {
   display: none;
 }
-.tab-circle{
+.tab-circle {
   display: none;
 }
-@media screen and (min-width:1024px) and (max-width:1203px) {
-  .tab-circle{
+@media screen and (min-width: 1024px) and (max-width: 1203px) {
+  .tab-circle {
     display: block;
   }
-  .desk-circle{
+  .desk-circle {
     display: none;
   }
 }
 @media screen and (min-width: 621px) and (max-width: 1023px) {
   .contact-details {
     min-height: 100px !important;
-}
-.con-head{
-  padding-top: 4rem;
-}
-.blowing{
-  padding-top: 4rem !important;
-}
-.contact-details i {
-  font-size: 21px !important;}
-  .contact-details h3{
+  }
+  .con-head {
+    padding-top: 4rem;
+  }
+  .blowing {
+    padding-top: 4rem !important;
+  }
+  .contact-details i {
+    font-size: 21px !important;
+  }
+  .contact-details h3 {
     margin-bottom: 12px;
   }
-  .whats{
+  .whats {
     margin-top: -7%;
     width: 4%;
   }
 
   .logo img {
     max-width: 30% !important;
-}
-.box.active .header-title p {
-  font-size: 14px !important;
-  line-height: 1.3em;
-}
-.big-text a{
-  font-size: 14px !important;
-}
+  }
+  .box.active .header-title p {
+    font-size: 14px !important;
+    line-height: 1.3em;
+  }
+  .big-text a {
+    font-size: 14px !important;
+  }
 
-mark{
-  color: #000000;
-  text-shadow: none;
-}
-.circle-1,.circle-2, .circle-3, .circle-4, .circle-5, .triangle-1, .triangle-2{
-  display: none;
-}
-.full{
-  padding: 0px 10% 55px !important;
-}
-.press{
-  padding-top: 4rem;
-}
-  .tab-circle{
+  mark {
+    color: #000000;
+    text-shadow: none;
+  }
+  .circle-1,
+  .circle-2,
+  .circle-3,
+  .circle-4,
+  .circle-5,
+  .triangle-1,
+  .triangle-2 {
+    display: none;
+  }
+  .full {
+    padding: 0px 10% 55px !important;
+  }
+  .press {
+    padding-top: 4rem;
+  }
+  .tab-circle {
     display: block;
   }
-  .desk-circle{
+  .desk-circle {
     display: none;
   }
 }
-@media screen and (max-width:620px) {
+@media screen and (max-width: 620px) {
   .contact-details {
     min-height: 100px !important;
-}
-.contact-details i {
-  font-size: 21px !important;}
-  .contact-details h3{
+  }
+  .contact-details i {
+    font-size: 21px !important;
+  }
+  .contact-details h3 {
     margin-bottom: 12px;
   }
-  .whats{
+  .whats {
     margin-top: -7%;
     width: 8%;
   }
-  .logo-div{
+  .logo-div {
     background-color: #ffffff !important;
   }
   .logo img {
     max-width: 30% !important;
-}
-.box.active .header-title p {
-  font-size: 14px !important;
-  line-height: 1.3em;
-}
-.big-text a{
-  font-size: 14px !important;
-}
+  }
+  .box.active .header-title p {
+    font-size: 14px !important;
+    line-height: 1.3em;
+  }
+  .big-text a {
+    font-size: 14px !important;
+  }
 
-mark{
-  color: #000000;
-  text-shadow: none;
-}
-.circle-1,.circle-2, .circle-3, .circle-4, .circle-5, .triangle-1, .triangle-2{
-  display: none;
-}
-.full{
-  padding: 50px 10% 55px !important;
-}
-  .mob-circle{
+  mark {
+    color: #000000;
+    text-shadow: none;
+  }
+  .circle-1,
+  .circle-2,
+  .circle-3,
+  .circle-4,
+  .circle-5,
+  .triangle-1,
+  .triangle-2 {
+    display: none;
+  }
+  .full {
+    padding: 50px 10% 55px !important;
+  }
+  .mob-circle {
     display: block;
   }
-  .desk-circle{
+  .desk-circle {
     display: none;
   }
 }
@@ -166,41 +180,50 @@ mark{
   clip-path: circle(100px at 50% 50%);
 }
 /* text-masking */
-.mask, .mask1, .mask2, .mask3 { 
+.mask,
+.mask1,
+.mask2,
+.mask3 {
   width: 100%;
-  position:absolute;
+  position: absolute;
   top: 0;
-  left: 0; 
+  left: 0;
   height: 100%;
 }
- .mask1 text, .mask3 text {
-    font-family:"GillSansHeavy" ;
+.mask1 text,
+.mask3 text {
+  font-family: "GillSansHeavy";
   text-transform: uppercase;
   font-size: 58px;
 }
-.mask text,.mask2 text,#works-mask text{
-  font-family:"GillSansHeavy" ;
+.mask text,
+.mask2 text,
+#works-mask text {
+  font-family: "GillSansHeavy";
   text-transform: uppercase;
   font-size: 306px !important;
 }
-#contact-mask text{
-  font-family:"GillSansHeavy" ;
+#contact-mask text {
+  font-family: "GillSansHeavy";
   text-transform: uppercase;
   font-size: 328px !important;
 }
-.mask rect, .mask1 rect, .mask2 rect, .mask3 rect  {
+.mask rect,
+.mask1 rect,
+.mask2 rect,
+.mask3 rect {
   fill: white;
 }
-.mask circle{
+.mask circle {
   fill: black;
 }
-.mask > circle{
+.mask > circle {
   -webkit-mask: url(#mask);
-    mask: url(#mask);
+  mask: url(#mask);
 }
 .mask > rect {
-    -webkit-mask: url(#mask);
-    mask: url(#mask);
+  -webkit-mask: url(#mask);
+  mask: url(#mask);
 }
 .mask1 > rect {
   -webkit-mask: url(#mask1);
@@ -400,9 +423,11 @@ hr {
 /*logo*/
 .logo {
   position: absolute;
-  left: 35px;
-  top: 30px;
+  /* left: 35px; */
+  /* top: 30px; */
   z-index: 500;
+  padding: 20px 30px;
+  background-color: white;
 }
 
 .logo a {
@@ -411,8 +436,8 @@ hr {
   font-family: montserrat;
   font-weight: bold;
 }
-.logo img{
-  max-width: 20%;
+.logo img {
+  max-width: 10%;
 }
 
 /* home and nav */
@@ -487,7 +512,7 @@ hr {
   display: inline-block;
   bottom: 30%;
   font-size: 20px;
-  color: #000;
+  /* color: #000; */
   text-shadow: 1px 1px 1px rgba(31, 31, 31, 0.317);
   text-transform: uppercase;
   font-weight: 700;
@@ -498,19 +523,19 @@ hr {
 }
 
 #about .header span {
-  left: 70%;
+  left: 60%;
 }
 
 #works .header span {
-  left: 68%;
+  left: 55%;
 }
 
 #blog .header span {
-  left: 67%;
+  left: 60%;
 }
 
 #contact .header span {
-  left: 66%;
+  left: 60%;
 }
 
 .header .title span.c {
@@ -624,19 +649,23 @@ body.hover-contact svg #svg-contact polygon {
 }
 
 #about:hover .header span {
-  left: 75%;
+  left: 70%;
+  color: #ee3c24 !important;
 }
 
 #works:hover .header span {
-  left: 73%;
+  left: 70%;
+  color: #ee3c24 !important;
 }
 
 #blog:hover .header span {
-  left: 72%;
+  left: 70%;
+  color: #ee3c24 !important;
 }
 
 #contact:hover .header span {
-  left: 72%;
+  left: 70%;
+  color: #ee3c24 !important;
 }
 
 .header:hover .nav-video {
@@ -830,7 +859,7 @@ html.no-touchevents .nav-video {
   left: 50%;
   transform: translate3d(-50%, -50%, 0);
   margin: 0;
-  filter: none;
+  filter: brightness(0.8);
 }
 
 .colored-title {
@@ -840,6 +869,13 @@ html.no-touchevents .nav-video {
 .big-text {
   font-size: 24px;
   line-height: 1.9em;
+}
+
+#about-breakaway-inner,
+#work-breakaway-inner,
+#blog-breakaway-inner,
+#getintouch-breakaway-inner {
+  padding-top: 0px !important;
 }
 
 @keyframes BackgroundAnimated-l-r {
@@ -1090,10 +1126,10 @@ html.no-touchevents .nav-video {
 
 .circle-1 {
   position: absolute;
-  right: 15%;
-  top: 400px;
-  width: 100px;
-  height: 100px;
+  right: 7%;
+  top: 150px;
+  width: 185px;
+  height: 185px;
   -moz-border-radius: 50px;
   -webkit-border-radius: 50px;
   border-radius: 50px;
@@ -1107,10 +1143,10 @@ html.no-touchevents .nav-video {
 }
 .circle-2 {
   position: absolute;
-  right: 30%;
-  top: 100px;
-  width: 100px;
-  height: 100px;
+  right: 7%;
+  top: 150px;
+  width: 185px;
+  height: 185px;
   -moz-border-radius: 20px;
   -webkit-border-radius: 20px;
   border-radius: 20px;
@@ -1124,10 +1160,10 @@ html.no-touchevents .nav-video {
 
 .circle-3 {
   position: absolute;
-  left: 3%;
-  bottom: 60px;
-  width: 100px;
-  height: 100px;
+  right: 20%;
+  top: 200px;
+  width: 185px;
+  height: 185px;
   -moz-border-radius: 20px;
   -webkit-border-radius: 20px;
   border-radius: 20px;
@@ -1143,10 +1179,10 @@ html.no-touchevents .nav-video {
 
 .circle-5 {
   position: absolute;
-  left: 5%;
-  top: 6%;
-  width: 100px;
-  height: 100px;
+  left: 15%;
+  top: 220px;
+  width: 185px;
+  height: 185px;
   -moz-border-radius: 50px;
   -webkit-border-radius: 50px;
   border-radius: 50px;
@@ -1188,10 +1224,10 @@ html.no-touchevents .nav-video {
 }
 .circle-4 {
   position: absolute;
-  left: 80%;
- top: 60%;
-  width: 100px;
-  height: 100px;
+  right: 7%;
+  top: 150px;
+  width: 185px;
+  height: 185px;
   -moz-border-radius: 20px;
   -webkit-border-radius: 20px;
   border-radius: 20px;
