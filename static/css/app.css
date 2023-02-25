@@ -407,7 +407,7 @@ hr {
 
 .full.footer-bg {
   background-color: #ffffff;
-  background-image: url(../../images/@stock/footer-bg.png);
+  /* background-image: url(../../images/@stock/footer-bg.png); */
   background-position: center center;
   background-repeat: no-repeat;
 }
@@ -1158,6 +1158,10 @@ html.no-touchevents .nav-video {
   transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
+.mb_0 {
+  margin-bottom: 0;
+}
+
 .circle-3 {
   position: absolute;
   right: 20%;
@@ -1171,7 +1175,7 @@ html.no-touchevents .nav-video {
   transform: translateY(0);
   transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
   background-color: #ffffff;
-  background-image: url(../../images/EV.gif);
+  background-image: url(../../images/Dandelion.gif);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
